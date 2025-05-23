@@ -1,69 +1,73 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
+  DiHtml5,
+  DiCss3,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  SiTypescript,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiTailwindcss,
+  SiTestinglibrary,
+  SiGithub,
+  SiVercel,
+  SiVisualstudiocode,
+  SiPostman,
+  SiGooglechrome,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      
+         {/* Programming Languages */}
+         <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 title="JavaScript (ES6+)" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiTypescript title="TypeScript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiPython title="Python" />
+      </Col>
+
+      {/* Frontend Technologies */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 title="HTML5" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiCss3 title="CSS3" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact title="React.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiNextdotjs title="Next.js" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiTailwindcss title="Tailwind CSS" />
+      </Col>
+
+      {/* Testing */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTestinglibrary title="React Testing Library" />
+      </Col>
+
+      {/* Tools */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit title="Git" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiGithub title="GitHub" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+        <SiGooglechrome title="Chrome DevTools" />
+      </Col>  
     </Row>
   );
 }
