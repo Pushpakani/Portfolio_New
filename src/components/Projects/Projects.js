@@ -24,18 +24,18 @@ function Projects() {
               isBlog={false}
               title="Chatify UI"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/pushpakani/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/Pushpakani/Vibechat_UI"
+              demoLink="https://vibechat-ui-woad.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
   <ProjectCard
     imgPath={ecomImg} 
     isBlog={false}
-    title="E-Commerce Dashboard UI"
+    title="E-Commerce UI"
     description="Built a responsive e-commerce admin dashboard using Next.js and Tailwind CSS. Integrated Chart.js for dynamic sales analytics, improving insights for 500+ daily users. Optimized load speed by 30% with SSR and lazy loading. Deployed on Vercel with CI/CD for 99.9% uptime."
-    ghLink="https://github.com/yourusername/ecommerce-dashboard" 
-    
+    ghLink="https://github.com/Pushpakani/Linga-Ecommerce-" 
+    demoLink="https://linga-ecommerce.vercel.app/"
   />
 </Col>
 
